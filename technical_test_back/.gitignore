@@ -1,0 +1,38 @@
+# Django #
+############
+*.log
+*.pot
+*.pyc
+*__pycache__
+*.pyo
+*.rej
+*.env
+db.sqlite3
+db.sqlite3-journal
+media
+
+# Backup files #
+################
+*.bak
+
+# If you are using PyCharm #
+#############################
+.idea/
+*.iml
+
+# If you are using macOS #
+##########################
+.DS_Store
+
+# If you are using Python #
+###########################
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.venv
+env.bak/
+venv.bak/

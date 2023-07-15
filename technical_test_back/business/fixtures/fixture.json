@@ -1,0 +1,226 @@
+[
+  {
+    "model": "business.customer",
+    "pk": 1,
+    "fields": {
+      "name": "Juan Andres Mendez Galvis",
+      "address": "Cl. 19 #2a - 15",
+      "phone": "+573506446627",
+      "email": "ja.mendez@uniandes.edu.co",
+      "city": "Bogota, D.C. Las aguas"
+    }
+  },
+  {
+    "model": "business.customer",
+    "pk": 2,
+    "fields": {
+      "name": "Isabella Molano",
+      "address": "Cl. 80 #45-73",
+      "phone": "+573121235040",
+      "email": "isabella.molano@uniandes.edu.co",
+      "city": "Bogota, D.C. Candelaria"
+    }
+  },
+  {
+    "model": "business.customer",
+    "pk": 3,
+    "fields": {
+      "name": "Damian Ramirez",
+      "address": "Cl. 29 #3a-10",
+      "phone": "+573012925674",
+      "email": "da.ramirez@uniandes.edu.co",
+      "city": "Medellin, Fatima"
+    }
+  },
+  {
+    "model": "business.customer",
+    "pk": 4,
+    "fields": {
+      "name": "Juan Pablo Garcia",
+      "address": "Cl. 29 #3a-10",
+      "phone": "+573012925674",
+      "email": "j.garcia@mail.com",
+      "city": "Cali, Valle del Cauca"
+    }
+  },
+  {
+    "model": "business.customer",
+    "pk": 5,
+    "fields": {
+      "name": "Jennifer Lopez",
+      "address": "Carretera 19 #2a-15",
+      "phone": "+573531234567",
+      "email": "j.lopez@gmail.com",
+      "city": "Caucasia, Antioquia"
+    }
+  },
+  {
+    "model": "business.product",
+    "pk": 1,
+    "fields": {
+      "name": "Ken doll (Astronaut)",
+      "cost": "16000.00"
+    }
+  },
+  {
+    "model": "business.product",
+    "pk": 2,
+    "fields": {
+      "name": "Barbie doll (Medic)",
+      "cost": "17000.00"
+    }
+  },
+  {
+    "model": "business.product",
+    "pk": 3,
+    "fields": {
+      "name": "Staicie (Veterinarian)",
+      "cost": "20000.00"
+    }
+  },
+  {
+    "model": "business.product",
+    "pk": 4,
+    "fields": {
+      "name": "Lola Bunny (Basketball player)",
+      "cost": "16000.00"
+    }
+  },
+  {
+    "model": "business.product",
+    "pk": 5,
+    "fields": {
+      "name": "Bugs Bunny (Basketball player)",
+      "cost": "16000.00"
+    }
+  },
+  {
+    "model": "business.order",
+    "pk": 1,
+    "fields": {
+      "date": "2023-07-13",
+      "status": "P",
+      "paid": false,
+      "customer": 1,
+      "delivery_rule": "H",
+      "observations": "Treat with care",
+      "total_cost": "265000.00"
+    }
+  },
+  {
+    "model": "business.order",
+    "pk": 2,
+    "fields": {
+      "date": "2023-05-13",
+      "status": "P",
+      "paid": false,
+      "customer": 2,
+      "delivery_rule": "H",
+      "observations": "Treat with care",
+      "total_cost": "347000.00"
+    }
+  },
+  {
+    "model": "business.order",
+    "pk": 3,
+    "fields": {
+      "date": "2023-06-13",
+      "status": "P",
+      "paid": false,
+      "customer": 3,
+      "delivery_rule": "H",
+      "observations": "Random Order",
+      "total_cost": "166000.00"
+    }
+  },
+  {
+    "model": "business.orderitem",
+    "pk": 1,
+    "fields": {
+      "order": 1,
+      "product": 1,
+      "quantity": 5,
+      "batch_cost": "75000.00"
+    }
+  },
+  {
+    "model": "business.orderitem",
+    "pk": 2,
+    "fields": {
+      "order": 1,
+      "product": 2,
+      "quantity": 10,
+      "batch_cost": "170000.00"
+    }
+  },
+  {
+    "model": "business.orderitem",
+    "pk": 3,
+    "fields": {
+      "order": 1,
+      "product": 3,
+      "quantity": 1,
+      "batch_cost": "20000.00"
+    }
+  },
+  {
+    "model": "business.orderitem",
+    "pk": 4,
+    "fields": {
+      "order": 2,
+      "product": 3,
+      "quantity": 15,
+      "batch_cost": "300000.00"
+    }
+  },
+  {
+    "model": "business.orderitem",
+    "pk": 5,
+    "fields": {
+      "order": 2,
+      "product": 2,
+      "quantity": 1,
+      "batch_cost": "17000.00"
+    }
+  },
+  {
+    "model": "business.orderitem",
+    "pk": 6,
+    "fields": {
+      "order": 2,
+      "product": 1,
+      "quantity": 2,
+      "batch_cost": "30000.00"
+    }
+  },
+  {
+    "model": "business.orderitem",
+    "pk": 7,
+    "fields": {
+      "order": 3,
+      "product": 1,
+      "quantity": 5,
+      "batch_cost": "75000.00"
+    }
+  },
+  {
+    "model": "business.orderitem",
+    "pk": 8,
+    "fields": {
+      "order": 3,
+      "product": 2,
+      "quantity": 3,
+      "batch_cost": "51000.00"
+    }
+  },
+  {
+    "model": "business.orderitem",
+    "pk": 9,
+    "fields": {
+      "order": 3,
+      "product": 3,
+      "quantity": 2,
+      "batch_cost": "40000.00"
+    }
+  }
+]
